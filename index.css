@@ -23,7 +23,7 @@ body {
 
 #outerflexbox{
     display: block;
-    max-width: 70%;
+    max-width: 80%;
     background-image: linear-gradient(to top right, #00070C, #002930);
     border-radius: 20px;
     padding: 5px 0;
