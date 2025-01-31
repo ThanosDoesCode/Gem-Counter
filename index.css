@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("/images/dark.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#outerflexbox{
+    display: block;
+    max-width: 500px;
+    background-image: linear-gradient(to top right, #00070C, #002930);
+    border-radius: 20px;
+    padding: 5px 0;
+}
+
+#innerflexbox{
+    display: flex;
+}
+
+#team1, #team2{
+    margin: 20px 0px;
+}
+
+h1 {
+    margin: 20px 0px 40px 0px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#save-el-blue, #save-el-red{
+    margin-top: 30px;   
+}
+
+p{
+    width: 150px;
+    display: block;
+    margin: 15px auto;
+}
+
+button {
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    margin: 5px 2px;
+    border-radius: 5px;
+    transition: transform 0.5s;
+    transition-delay: 0ms;
+}
+
+#increment-btn-light {
+    background-color: #00505C;
+}
+
+#save-btn-light {
+    background-color: #00505C;
+}
+
+#save-btn-light:hover{
+    background-color: #00727D;
+}
+
+#increment-btn-dark {
+    background-color: #003843;
+}
+
+#save-btn-dark {
+    background-color: #003843;
+}
+
+#save-btn-dark:hover{
+    background-color: #00505C;
+}
+
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#increment-btn-light:hover{
+    background-color: #00727D;
+}
+
+#increment-btn-light:active{
+    background-color: #006770 !important;
+}
+
+#increment-btn-dark:hover{
+    background-color: #00505C;
+}
+
+#increment-btn-dark:active{
+    background-color: #004953 !important;
+}
+
+.savebutton:active {
+    background-color: darkgreen !important;
+}
